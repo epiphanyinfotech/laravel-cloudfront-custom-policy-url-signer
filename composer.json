@@ -1,5 +1,5 @@
 {
-    "name": "epiphany/laravel-aws-custom-policy-url-signer",
+    "name": "epiphanyinfotech/laravel-aws-custom-policy-url-signer",
     "description": "Get AWS custom policy url to append to cloudfront file with a valid key-pair id and time limit",
     "keywords": [
         "aws",
