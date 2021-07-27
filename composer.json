@@ -3,7 +3,7 @@
     "description": "Get AWS custom policy url to append to cloudfront file with a valid key-pair id and time limit",
     "keywords": [
         "aws",
-        "custom-policy-url"
+        "custom-policy-signed-url"
     ],
     "homepage": "https://github.com/epiphanyinfotech/laravel-cloudfront-custom-policy-url-signer",
     "license": "MIT",

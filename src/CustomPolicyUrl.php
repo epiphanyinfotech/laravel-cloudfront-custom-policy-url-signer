@@ -13,12 +13,12 @@ class CustomPolicyUrl
 	public $client_ip;
 	public $aws_url;
 
-    public function __construct($KEY_ID, $AWS_PRIVATE_KEY, $client_ip = NULL){
-    	$this->key_id = $KEY_ID;
+    public function __construct($KEY_ID = NULL, $AWS_PRIVATE_KEY=NULL, $client_ip = NULL){
+    	$this->key_id = $KEY_ID ?? config('aws-custom-policy-url.KEY_ID');
     	$client_ip = $client_ip ?? config('aws-custom-policy-url.CLIENT_IP');
     	$client_ip = $client_ip ?? $_SERVER['REMOTE_ADDR'];
 
-    	$this->aws_private_key = $AWS_PRIVATE_KEY;
+    	$this->aws_private_key = $AWS_PRIVATE_KEY ??  config('aws-custom-policy-url.AWS_PRIVATE_KEY');
     	$this->client_ip = $client_ip;
     	$this->aws_url = config('aws-custom-policy-url.AWS_URL');
 	}
