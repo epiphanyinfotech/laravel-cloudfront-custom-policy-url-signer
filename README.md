@@ -21,7 +21,7 @@ use Aws\CustomPolicyUrl\CustomPolicyUrl as AWSURL;
  * the path of the media files in the AWS S3 Bubket
  */
 
-		$key_id = config('aws-custom-policy-url.KEY-ID');
+        $key_id = config('aws-custom-policy-url.KEY-ID');
 		
     	$aws_private_key = config('aws-custom-policy-url.AWS-PRIVATE-KEY');
     	
@@ -39,7 +39,7 @@ The output is compliant with [CloudFront specifications](https://docs.aws.amazon
 The package can be installed via Composer:
 
 ```
-composer require epiphanyinfotech/laravel-cloudfront-custom-policy-url-signer
+composer require epiphanyinfotech/laravel-aws-custom-policy-url-signer:^1.0
 ```
 
 ## Configuration
