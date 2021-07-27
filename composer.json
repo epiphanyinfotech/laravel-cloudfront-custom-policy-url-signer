@@ -5,7 +5,7 @@
         "aws",
         "custom-policy-url"
     ],
-    "homepage": "https://github.com/aws/custom-policy-url",
+    "homepage": "https://github.com/epiphanyinfotech/laravel-cloudfront-custom-policy-url-signer",
     "license": "MIT",
     "type": "library",
     "authors": [
