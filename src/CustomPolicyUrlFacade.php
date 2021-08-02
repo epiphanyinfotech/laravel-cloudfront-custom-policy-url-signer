@@ -1,6 +1,6 @@
 <?php
 
-namespace epiphanyinfotech\CustomPolicyUrl;
+namespace EpiphanyInfotech\CustomPolicyUrl;
 
 use Illuminate\Support\Facades\Facade;
 
