@@ -1,8 +1,8 @@
 {
-    "name": "epiphanyinfotech/laravel-aws-custom-policy-url-signer",
-    "description": "Get AWS custom policy url to append to cloudfront file with a valid key-pair id and time limit",
+    "name": "epiphanyinfotech/laravel-epiphanyinfotech-custom-policy-url-signer",
+    "description": "Get epiphanyinfotech custom policy url to append to cloudfront file with a valid key-pair id and time limit",
     "keywords": [
-        "aws",
+        "epiphanyinfotech",
         "custom-policy-signed-url"
     ],
     "homepage": "https://github.com/epiphanyinfotech/laravel-cloudfront-custom-policy-url-signer",
@@ -30,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Aws\\CustomPolicyUrl\\": "src"
+            "epiphanyinfotech\\CustomPolicyUrl\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Aws\\CustomPolicyUrl\\Tests\\": "tests"
+            "epiphanyinfotech\\CustomPolicyUrl\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -49,10 +49,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Aws\\CustomPolicyUrl\\CustomPolicyUrlServiceProvider"
+                "epiphanyinfotech\\CustomPolicyUrl\\CustomPolicyUrlServiceProvider"
             ],
             "aliases": {
-                "CustomPolicyUrl": "Aws\\CustomPolicyUrl\\CustomPolicyUrlFacade"
+                "CustomPolicyUrl": "epiphanyinfotech\\CustomPolicyUrl\\CustomPolicyUrlFacade"
             }
         }
     }

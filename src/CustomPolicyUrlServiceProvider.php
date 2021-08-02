@@ -1,6 +1,6 @@
 <?php
 
-namespace Aws\CustomPolicyUrl;
+namespace epiphanyinfotech\CustomPolicyUrl;
 
 use Illuminate\Support\ServiceProvider;
 
