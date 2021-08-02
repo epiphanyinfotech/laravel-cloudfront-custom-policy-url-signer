@@ -30,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "epiphanyinfotech\\CustomPolicyUrl\\": "src"
+            "EpiphanyInfotech\\CustomPolicyUrl\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "epiphanyinfotech\\CustomPolicyUrl\\Tests\\": "tests"
+            "EpiphanyInfotech\\CustomPolicyUrl\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -49,10 +49,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "epiphanyinfotech\\CustomPolicyUrl\\CustomPolicyUrlServiceProvider"
+                "EpiphanyInfotech\\CustomPolicyUrl\\CustomPolicyUrlServiceProvider"
             ],
             "aliases": {
-                "CustomPolicyUrl": "epiphanyinfotech\\CustomPolicyUrl\\CustomPolicyUrlFacade"
+                "CustomPolicyUrl": "EpiphanyInfotech\\CustomPolicyUrl\\CustomPolicyUrlFacade"
             }
         }
     }
