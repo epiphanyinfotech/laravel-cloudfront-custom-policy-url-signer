@@ -14,7 +14,7 @@ This is how you can create signed URL that's valid for 1 day or 24 hour:
 
 ```php
 // Add Namespace in Controller
-use Aws\CustomPolicyUrl\CustomPolicyUrl as AWSURL;
+use EpiphanyInfotech\CustomPolicyUrl\CustomPolicyUrl as AWSURL;
 
 /*
  * Instantiate the class and pass the array with values matching 
@@ -47,7 +47,7 @@ composer require epiphanyinfotech/laravel-aws-custom-policy-url-signer:^1.0
 The configuration file can optionally be published via:
 
 ```
-php artisan vendor:publish --provider="Aws\CustomPolicyUrl\CustomPolicyUrlServiceProvider"
+php artisan vendor:publish --provider="EpiphanyInfotech\CustomPolicyUrl\CustomPolicyUrlServiceProvider"
 ```
 
 This is the content of the file:
